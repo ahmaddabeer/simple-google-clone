@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <div class="left-links">
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+        <div class="right-links">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <div id="profile">
+                <a href="#">P</a>
+            </div>
+        </div>
+    </div>
+    <div class="full-width-div">
+        <img src="google.jpeg" alt="Centered Image" class="centered-image">
+        
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Search Google..." id="search-input">
+            <button class="search-button" onclick="displayMessage()">Let's search</button>
+        </div>
+        
+        <div class="additional-buttons">
+            <button class="extra-button">Google Search</button>
+            <button class="extra-button">Thank You</button>
+        </div>
+        
+        <div class="language-selection">
+            <span>English</span> | 
+            <span>Hindi</span> | 
+            <span>French</span> | 
+            <span>Spanish</span> | 
+            <span>German</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
